@@ -256,6 +256,7 @@ section {
     }
 }
 
+
 /* Visa Applications Page Specific Styles */
 .visa-section {
     margin-bottom: 2rem;
@@ -295,3 +296,46 @@ section {
     text-decoration: underline;
 }
 
+/* Make the Google Translate element fixed in the top left */
+#google_translate_element {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 9999; /* stay on top of everything */
+    font-size: 0.9rem;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 4px 8px;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+
+/* Style the dropdown itself */
+.goog-te-combo {
+    padding: 4px 6px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 0.9rem;
+}
+
+/* Hide any logo link or logo span inside the translate widget */
+#google_translate_element a.goog-logo-link,
+#google_translate_element span.goog-logo-link,
+#google_translate_element img {
+    display: none !important;
+}
+
+/* Keep the small text attribution visible and adjust spacing */
+#google_translate_element .goog-te-gadget {
+    font-size: 0.8rem;
+    color: #555;
+    padding-left: 0;
+}
+
+
+/* Keep the small text attribution visible */
+.goog-te-gadget {
+    font-size: 0.8rem;
+    color: #555;
+}
