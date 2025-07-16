@@ -8,7 +8,8 @@ body {
 }
 
 header {
-    background: #0056b3;
+
+    background: #008080; /* teal green */
     color: white;
     padding: 1rem;
     text-align: center;
@@ -29,11 +30,14 @@ header nav a {
     font-weight: bold;
 }
 
+
 header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.8rem;
+    font-weight: normal;
     margin: 0;
 }
 
-header h1,
 h2,
 h3 {
     font-family: 'Merriweather', serif;
