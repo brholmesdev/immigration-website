@@ -45,55 +45,80 @@
 </header>
 
 <main>
-  <section id="hero">
-    <img src="images/hero.png" alt="Helping clients with US immigration" class="hero-image" />
-    <h2>Helping You Navigate US Immigration with Confidence</h2>
-    <p>Visas, Citizenship, Green Cards – We’re here to guide you every step of the way.</p>
-    <a href="#contact" class="cta-button">Get a Free Consultation</a>
-  </section>
+  <div class="content-wrapper">
+    <div class="main-sections">
+      <section id="hero">
+        <img src="images/hero.png" alt="Helping clients with US immigration" class="hero-image" />
+        <h2>Helping You Navigate US Immigration with Confidence</h2>
+        <p>Visas, Citizenship, Green Cards – We’re here to guide you every step of the way.</p>
+        <a href="#contact" class="cta-button">Get a Free Consultation</a>
+      </section>
 
-
-  <section id="services">
-    <h2>Our Services</h2>
-    <a href="visa-applications.html" class="service-link">
-      <div class="service-tile" style="background-image: url('images/visa.jpg');">
-        <div class="service-content">
-          <h3>Visa Applications</h3>
-          <p>Learn about different visa types.</p>
+      <section id="services">
+        <h2>Our Services</h2>
+        <a href="visa-applications.html" class="service-link">
+          <div class="service-tile" style="background-image: url('images/visa.jpg');">
+            <div class="service-content">
+              <h3>Visa Applications</h3>
+              <p>Learn about different visa types.</p>
+            </div>
+          </div>
+        </a>
+        <div class="service-tile" style="background-image: url('images/green-card.jpg');">
+          <div class="service-content">
+            <h3>Green Card Assistance</h3>
+            <p>Application guidance and document preparation.</p>
+          </div>
         </div>
-      </div>
-    </a>
-    <div class="service-tile" style="background-image: url('images/green-card.jpg');">
-      <div class="service-content">
-        <h3>Green Card Assistance</h3>
-        <p>Application guidance and document preparation.</p>
-      </div>
-    </div>
-    <a href="citizenship.html" class="service-link">
-    <div class="service-tile" style="background-image: url('images/citizenship.jpg');">
-      <div class="service-content">
-        <h3>Citizenship Applications</h3>
-        <p>Help with naturalization and eligibility requirements.</p>
-      </div>
-    </div>
-    </a>
-  </section>
+        <a href="citizenship.html" class="service-link">
+          <div class="service-tile" style="background-image: url('images/citizenship.jpg');">
+            <div class="service-content">
+              <h3>Citizenship Applications</h3>
+              <p>Help with naturalization and eligibility requirements.</p>
+            </div>
+          </div>
+        </a>
+      </section>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>At BVC Immigration Consulting LLC, we are committed to providing individuals, families, and businesses with dependable, knowledgeable guidance throughout the U.S. immigration process. With over 10 years of experience, our team understands that navigating immigration requirements can feel overwhelming—and we are here to make it clear, organized, and accessible. As a trusted immigration consulting firm, we specialize in assisting clients with the preparation and submission of a broad range of immigration applications, including family-based petitions, employment-based cases, adjustment of status, naturalization, and humanitarian relief. We stay up to date with the latest USCIS regulations to ensure every application is prepared accurately and submitted on time. While we are not a law firm and do not provide legal advice, our expertise and dedication allow us to deliver professional support and documentation services within the scope of immigration consulting. Every client’s situation is unique, and we are committed to offering personalized assistance, attention to detail, and the highest standards of confidentiality and respect. Whether you are seeking to bring family members to the United States, explore employment opportunities, or take steps toward U.S. citizenship, BVC Immigration Consulting LLC is here to help you move forward with confidence.</p>
-  </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>At BVC Immigration Consulting LLC, we are committed to providing individuals, families, and businesses with dependable, knowledgeable guidance throughout the U.S. immigration process. With over 10 years of experience, our team understands that navigating immigration requirements can feel overwhelming—and we are here to make it clear, organized, and accessible. As a trusted immigration consulting firm, we specialize in assisting clients with the preparation and submission of a broad range of immigration applications, including family-based petitions, employment-based cases, adjustment of status, naturalization, and humanitarian relief. We stay up to date with the latest USCIS regulations to ensure every application is prepared accurately and submitted on time. While we are not a law firm and do not provide legal advice, our expertise and dedication allow us to deliver professional support and documentation services within the scope of immigration consulting. Every client’s situation is unique, and we are committed to offering personalized assistance, attention to detail, and the highest standards of confidentiality and respect. Whether you are seeking to bring family members to the United States, explore employment opportunities, or take steps toward U.S. citizenship, BVC Immigration Consulting LLC is here to help you move forward with confidence.</p>
+      </section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form action="https://formspree.io/f/myzpzzpl" method="POST">
-      <input type="hidden" name="_redirect" value="https://brholmesdev.github.io/immigration-website/#">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <textarea name="message" placeholder="How can we help?" required></textarea>
-      <button type="submit" class="cta-button">Submit</button>
-    </form>
-  </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/f/myzpzzpl" method="POST">
+          <input type="hidden" name="_redirect" value="https://brholmesdev.github.io/immigration-website/#" />
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="How can we help?" required></textarea>
+          <button type="submit" class="cta-button">Submit</button>
+        </form>
+      </section>
+    </div>
+    <aside class="sidebar">
+      <h2>Immigration News & Laws</h2>
+      <div class="news-tiles">
+        <a href="https://www.uscis.gov/news" target="_blank" class="news-tile">
+          <img src="images/news1.jpg" alt="USCIS News" />
+          <span>Latest USCIS News</span>
+        </a>
+        <a href="https://www.uscis.gov/laws" target="_blank" class="news-tile">
+          <img src="images/news2.jpg" alt="Immigration Laws" />
+          <span>Current Immigration Laws</span>
+        </a>
+        <a href="https://www.aila.org/" target="_blank" class="news-tile">
+          <img src="images/news3.jpg" alt="AILA Updates" />
+          <span>AILA Immigration Updates</span>
+        </a>
+        <a href="https://www.migrationpolicy.org/" target="_blank" class="news-tile">
+          <img src="images/news4.jpg" alt="Migration Policy" />
+          <span>Migration Policy News</span>
+        </a>
+      </div>
+    </aside>
+
+  </div>
 </main>
 
 <footer>

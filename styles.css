@@ -346,3 +346,35 @@ section {
     font-size: 0.8rem;
     color: #555;
 }
+
+
+.content-wrapper {
+    display: flex;
+    gap: 2rem; /* space between main content and sidebar */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.main-sections {
+    flex: 3; /* take more width */
+}
+
+.sidebar {
+    flex: 1; /* narrower sidebar */
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    height: fit-content;
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        margin-top: 2rem;
+    }
+}
