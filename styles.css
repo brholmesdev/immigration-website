@@ -350,24 +350,25 @@ section {
 
 .content-wrapper {
     display: flex;
-    gap: 2rem; /* space between main content and sidebar */
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem;
+    margin: 0 auto; /* centers the whole layout on the page */
+    padding: 20px;
 }
 
 .main-sections {
-    flex: 3; /* take more width */
+    flex: 1;
+    max-width: 800px;
 }
 
 .sidebar {
-    flex: 1; /* narrower sidebar */
-    background: #f9f9f9;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.05);
-    height: fit-content;
+    width: 240px;
+    flex-shrink: 0;
+    margin-left: 0; /* or small spacing from left if needed */
 }
+
 
 @media (max-width: 768px) {
     .content-wrapper {
