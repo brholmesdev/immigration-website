@@ -62,13 +62,15 @@ nav li {
 }
 
 nav a {
+    display: block;
     color: white;
+    padding: 0.75rem 1rem;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #d4f0c0; /* A light green tint */
+    background: #2f552c; /* darker green on hover */
 }
 
 #hero {
@@ -187,11 +189,6 @@ form button {
     margin: 0;
 }
 
-nav {
-    background: #0056b3;
-    text-align: center;
-}
-
 nav ul {
     list-style: none;
     margin: 0;
@@ -202,18 +199,6 @@ nav ul {
 
 nav li {
     position: relative;
-}
-
-nav a {
-    display: block;
-    color: white;
-    padding: 0.75rem 1rem;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    background: #004494;
 }
 
 .dropdown-content {
