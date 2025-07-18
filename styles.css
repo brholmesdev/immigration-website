@@ -97,7 +97,7 @@ nav a:hover {
 
 .cta-button {
     display: inline-block;
-    background: #0056b3;
+    background: #3a6b35;
     color: white;
     padding: 0.5rem 1rem;
     text-decoration: none;
@@ -135,7 +135,7 @@ form textarea {
 
 form button {
     padding: 0.5rem;
-    background: #0056b3;
+    background: #3a6b35;
     color: white;
     border: none;
     cursor: pointer;
